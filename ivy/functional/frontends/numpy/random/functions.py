@@ -31,8 +31,5 @@ def normal(loc=0.0, scale=1.0, size=None):
 
 
 @to_ivy_arrays_and_back
-def shuffle(
-        x,
-        /
-):
+def shuffle(x, /):
     return ivy.shuffle(x)
